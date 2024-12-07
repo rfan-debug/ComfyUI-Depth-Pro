@@ -5,7 +5,7 @@ from tqdm import trange
 from torchvision.transforms import Normalize
 
 import comfy.utils
-import model_management 
+from comfy import model_management 
 import folder_paths
 
 from . import depth_pro
